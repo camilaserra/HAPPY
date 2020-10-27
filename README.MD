@@ -1,32 +1,23 @@
-<h1 align="center">
-    <img alt="Happy" title="Happy" src=".github/logo.svg" />
-</h1>
-
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
 
 <p align="center">
- <img src="" alt="PRs welcome!" />
+ <img src="https://user-images.githubusercontent.com/66450896/97371341-bd490000-188f-11eb-9e6e-406d33f2e09e.png" alt="bem vindo!" />
 
 </p>
 
 <br>
-
-<p align="center">
-  <img alt="Happy" src=".github/happy.png" width="100%">
-</p>
 
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - [Node.js](https://nodejs.org/en/)
-- [React](https://reactjs.org)
-- [React Native](https://facebook.github.io/react-native/)
-- [Expo](https://expo.io/)
-- [TypeScript](https://www.typescriptlang.org/)
+- [Express](https://expressjs.com/pt-br/)
+- [Handlebars](https://handlebarsjs.com/)
+- [SQLite](https://www.sqlite.org/index.html)
 
 ## **:star2: GRATIDÃO!**
 
