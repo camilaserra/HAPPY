@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
- <img src="https://user-images.githubusercontent.com/66450896/96930085-863ead00-1491-11eb-98aa-ca030ef9c70d.png" alt="PRs welcome!" />
+ <img src="" alt="PRs welcome!" />
 
 </p>
 
