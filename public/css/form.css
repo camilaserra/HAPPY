@@ -76,9 +76,10 @@ fieldset legend {
 }
 
 .input-block textarea {
-    height: clamp(12rem 16rem 24rem);
+    height: clamp(12rem, 16rem, 24rem);
     resize: vertical;
     padding: 1.6rem;
+    line-height: 2.8rem
 }
 
 .input-block.images button {
