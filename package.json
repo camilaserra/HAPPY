@@ -1,0 +1,24 @@
+{
+  "name": "happy",
+  "version": "1.0.0",
+  "description": "<p align=\"center\">\r   <a href=\"#-tecnologias\">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;\r   <a href=\"#-projeto\">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;\r </p>",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/camilaserra/HAPPY.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/camilaserra/HAPPY/issues"
+  },
+  "homepage": "https://github.com/camilaserra/HAPPY#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.6"
+  }
+}
