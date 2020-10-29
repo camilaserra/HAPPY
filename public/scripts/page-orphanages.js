@@ -8,24 +8,40 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
 //create icon
 
 const icon = L.icon({
-    iconUrl: "./public/images/map-marker.svg",
+    iconUrl: "/images/map-marker.svg",
     iconSize: [58, 68],
     iconAnchor: [29, 68],
     popupAnchor: [170, 2]
 
 })
 
-//create popup overLay
+function addMarker({id, name, lat, lng}) {
 
-const popup = L.popup({
-    closeButton: false,
-    className: 'map-popup',
-    minWidth:240,
-    minHeight: 240
-}).setContent('Lar das meninas <a href="orphanage.html?id=1" class="choose-orphanage"> <img src="./public/images/arrow-white.svg"> </a>')
+    //create popup overLay
 
-//crateand add marker
-L
-.marker([-1.4606116,-48.4959768], {icon})
-.addTo(map)
-.bindPopup(popup)
+    const popup = L.popup({
+        closeButton: false,
+        className: 'map-popup',
+        minWidth:240,
+        minHeight: 240
+    }).setContent(`${name} <a href="orphanage?id=${id}"> <img src="/images/arrow-white.svg"></a>`)
+
+    //crateand add marker
+    L
+    .marker([lat, lng], {icon})
+    .addTo(map)
+    .bindPopup(popup)
+}
+
+
+const orphanagesSpan = document.querySelectorAll('.orphanages span')
+orphanagesSpan.forEach(span => {
+    const orphanage = {
+        id: span.dataset.id,
+        name: span.dataset.name,
+        lat: span.dataset.lat,
+        lng: span.dataset.lng
+    }
+
+    addMarker(orphanage)
+})
