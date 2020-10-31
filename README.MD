@@ -1,6 +1,6 @@
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-configurando">Configurando o ambiente</a>
+  <a href="#-configurando">Como configurar o ambiente?</a>
 </p>
 
 <p align="center">
@@ -18,7 +18,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [Handlebars](https://handlebarsjs.com/)
 - [SQLite](https://www.sqlite.org/index.html)
 
-## **:wrench: COMO CONFIGURAR O AMBIENTE?**
+## **:wrench: Como configurar o ambiente?**
   
 ```bash
 
