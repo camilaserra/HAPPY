@@ -1,11 +1,10 @@
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-configurando">Configurando o ambiente</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/66450896/97371341-bd490000-188f-11eb-9e6e-406d33f2e09e.png" alt="bem vindo!" />
-
 </p>
 
 <br>
@@ -18,6 +17,33 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [Express](https://expressjs.com/pt-br/)
 - [Handlebars](https://handlebarsjs.com/)
 - [SQLite](https://www.sqlite.org/index.html)
+
+## **:wrench: COMO CONFIGURAR O AMBIENTE?**
+  
+```bash
+
+# 1º Passo: Clone o repositório
+
+git clone https://github.com/camilaserra/HAPPY.git
+
+# 2º Passo: Entrer no diretório
+
+cd HAPPY
+
+# 3º Passo: Instale as dependências
+
+npm install 
+
+# 4º Passo: Abra o terminal e Execute o servidor: 
+
+npm start 
+
+
+```
+
+Agora, abra o seu navegador e acesse `http://localhost:5500/`
+
+Prontinho! :)
 
 ## **:star2: GRATIDÃO!**
 
@@ -58,7 +84,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 
 <h3 align="center">
-Feito com 💜 por <a href="https:https://www.linkedin.com/in/camilaserratecnologia/">Camila Serra</a>
+Projeto realizado na NLW03 com 💜 por <a href="https:https://www.linkedin.com/in/camilaserratecnologia/">Camila Serra</a>
 <br><br>
 # Happy - plataforma que conecta pessoas
 

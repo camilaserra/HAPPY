@@ -1,10 +1,12 @@
 //create map
 
-const map = L.map('mapid').setView([-1.4606116,-48.4959768], 15);
+const map = L.map('mapid').setView([-1.4521783,-48.4793795], 15);
 
-//create and add titleLayer
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png')
-.addTo(map);
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+{
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+})
+.addTo(map)
 
 //create icon
 
