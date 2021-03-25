@@ -46,7 +46,7 @@
 .button-select button.active {
     background: #edfff9;
     border: 1px solid #a1e9c5;
-    color: #37c77f;
+    color: #37c77f; 
 }
 
 .button-select button:first-child {
